@@ -1,0 +1,66 @@
+@import url ('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;600&display=swap');
+footer#piepagina{
+background-color:#196774;
+  color:white;
+  text-align:center;
+  padding:15px;
+  font-family: 'Montserrat', sans-serif;
+}
+/*Hero*/
+
+section#hero{
+  
+  background-image: url(https://neptunomojacar.com/wp-content/uploads/nueva-temporada-en-Neptuno-espetos-de-sardinas-y-pulpo.jpg);
+ background-size: cover;
+  background-position: center center;
+  
+  outline: solid 3px red;
+}
+
+section#hero h1{
+  margin:2;
+  color:red;
+  text-align:center;
+  padding: 15px;
+  
+  
+}
+section#hero{
+ text-shadow: 2px 2px 3px yellow;
+  
+}
+-section#hero:hover{
+ text-shadow: 3px 4px 6px green;
+ color:yellow;
+  
+}
+
+section#hero p{
+  font-weight:600;
+  color:red;
+  text-align:center;
+  
+}
+-section#hero p:hover{
+  font-weight:600;
+  color:blue;
+  text-align:center;
+}
+/*Footer*/
+span.rojo{
+  color:red;
+  font-size:20px;
+}
+
+footer#piepagina a{
+ color:#FAE668;
+  text-decoration:none;
+}
+
+footer#piepagina a:hover{
+  color:red;
+}
+footer#piepagina address{
+  font-style:normal;
+  font-weight:light;
+}
